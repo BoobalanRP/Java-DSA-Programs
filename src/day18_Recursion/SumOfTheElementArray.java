@@ -1,4 +1,4 @@
-package day17_Recursion;
+package day18_Recursion;
 
 import java.util.Scanner;
 
