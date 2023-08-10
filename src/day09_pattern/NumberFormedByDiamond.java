@@ -1,4 +1,4 @@
-package day09;
+package day09_pattern;
 //Input (stdin)
 
 //3

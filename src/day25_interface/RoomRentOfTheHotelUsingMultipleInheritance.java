@@ -100,3 +100,9 @@ public class RoomRentOfTheHotelUsingMultipleInheritance {
 //Address: Mumbai
 //Mobile: 85622356
 //Room Rent = 12500
+
+
+
+
+
+

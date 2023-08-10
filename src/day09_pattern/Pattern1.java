@@ -1,4 +1,4 @@
-package day09;
+package day09_pattern;
 //Write a program to print the given pattern.
 
 //Input format:
