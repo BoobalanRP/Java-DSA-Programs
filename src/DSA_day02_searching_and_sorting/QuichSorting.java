@@ -24,8 +24,6 @@ public class QuichSorting {
 			array[i] = scanner.nextInt();
 		}
 
-		// Close the scanner
-		scanner.close();
 
 		// Perform quicksort on the array
 		quickSort(array, 0, size - 1);

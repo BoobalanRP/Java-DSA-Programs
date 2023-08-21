@@ -44,7 +44,6 @@ public class CountingSort {
 	public static void countingSort(int[] array, int max) {
 		int[] countingArray = new int[max + 1];
 
-		// Count the occurrences of each element
 		for (int num : array) {
 			countingArray[num]++;
 		}
