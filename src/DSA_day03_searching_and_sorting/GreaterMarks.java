@@ -1,4 +1,4 @@
-package DSA_day03_searching_and_sorting;
+package dsa_day03_searching_and_sorting;
 
 import java.util.*;
 class Greatermarks

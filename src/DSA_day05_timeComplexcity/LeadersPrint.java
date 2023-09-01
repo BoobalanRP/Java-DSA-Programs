@@ -1,4 +1,4 @@
-package DSA_day05_timeComplexcity;
+package dsa_day05_timeComplexcity;
 
 public class LeadersPrint {
 	public static void main(String[] args) {

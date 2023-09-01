@@ -1,4 +1,4 @@
-package DSA_day01_sorting;
+package dsa_day01_sorting;
 
 public class BubbleSorting {
 	public static void main(String[] args) {

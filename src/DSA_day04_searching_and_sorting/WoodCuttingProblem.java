@@ -1,4 +1,4 @@
-package DSA_day04_searching_and_sorting;
+package dsa_day04_searching_and_sorting;
 
 import java.util.*;
 

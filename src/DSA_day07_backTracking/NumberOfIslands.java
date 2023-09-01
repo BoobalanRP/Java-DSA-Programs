@@ -1,4 +1,4 @@
-package DSA_day07_backTracking;
+package dsa_day07_backTracking;
 
 import java.util.*;
 

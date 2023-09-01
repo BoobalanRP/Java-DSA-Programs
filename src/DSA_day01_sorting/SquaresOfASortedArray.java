@@ -1,4 +1,4 @@
-package DSA_day01_sorting;
+package dsa_day01_sorting;
 
 import java.util.Arrays;
 import java.util.Scanner;

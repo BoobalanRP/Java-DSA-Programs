@@ -1,4 +1,4 @@
-package DSA_day08_backTracking;
+package dsa_day08_backTracking;
 
 import java.util.Scanner;
 

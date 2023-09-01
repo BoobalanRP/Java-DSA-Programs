@@ -1,4 +1,4 @@
-package DSA_day02_searching_and_sorting;
+package dsa_day02_searching_and_sorting;
 
 public class MergeSort {
     public static void main(String args[]) {
