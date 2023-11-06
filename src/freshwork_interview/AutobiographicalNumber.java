@@ -35,6 +35,7 @@ import java.util.*;
 //6210001000 4
 //567 0
 //21200 3
+
 public class AutobiographicalNumber {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);

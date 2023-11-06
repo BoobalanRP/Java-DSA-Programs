@@ -22,7 +22,7 @@ public class MutiplyStringNumbers {
                   System.out.println("product[i + j + 1] "+product[i + j + 1]+ "index "+ (i + j + 1));
                 int sum = mul + product[i + j + 1];
                 
-                  System.out.println("sum "+sum);
+                System.out.println("sum "+sum);
                 product[i + j + 1] = sum % 10;
                 product[i + j] += sum / 10;
             }

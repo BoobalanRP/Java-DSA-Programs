@@ -21,37 +21,37 @@ import java.util.Scanner;
 //Output:
 //1332
 
-public class PossiblePermutationValues {
-
-	// Sum of all possible permutations O(logn)
-	static long fac(int n) {
-		long f = 1;
-		for (int i = n; i > 1; i--)
-			f *= i;
-
-		return f;
-	}
-
-	public static void main(String[] args) {
-		int n, temp;
-		Scanner sc = new Scanner(System.in);
-		n = sc.nextInt();
-		temp = n;
-
-		long p = 1;
-		int a, i, sum = 0;
-
-		for (i = 0; i < n; i++) {
-			a = sc.nextInt();
-			sum += a;
-		}
-		while (--n != 0)
-			p = p * 10 + 1;
-
-		System.out.print(sum * fac(temp - 1) * p);
-	}
-
-}
+//public class PossiblePermutationValues {
+//
+//	// Sum of all possible permutations O(logn)
+//	static long fac(int n) {
+//		long f = 1;
+//		for (int i = n; i > 1; i--)
+//			f *= i;
+//
+//		return f;
+//	}
+//
+//	public static void main(String[] args) {
+//		int n, temp;
+//		Scanner sc = new Scanner(System.in);
+//		n = sc.nextInt();
+//		temp = n;
+//
+//		long p = 1;
+//		int a, i, sum = 0;
+//
+//		for (i = 0; i < n; i++) {
+//			a = sc.nextInt();
+//			sum += a;
+//		}
+//		while (--n != 0)
+//			p = p * 10 + 1;
+//
+//		System.out.print(sum * fac(temp - 1) * p);
+//	}
+//
+//}
 
 //if the value is 1234
 //1+2+3+4 = 10 - total;
@@ -104,28 +104,28 @@ public class PossiblePermutationValues {
 
 
 //import java.util.Scanner;
-//public class Main {
-//    public static void main(String[] args) {
-//        Scanner sc = new Scanner(System.in);
-//        int N = sc.nextInt();
-//        int[] A = new int[N];
-//        int sum = 0;
-//        int factorial = 1;
-//        for (int i = 0; i < N; i++) {
-//            A[i] = sc.nextInt();
-//            sum +=A[i];
-//            factorial *=(i+1);
-//        }
-//        int freq = factorial/N;
-//        int res = freq * sum;
-//         // System.out.println("res "+res);
-//        int total = res;
-//        int finalValue = res;
-//        for(int i=0; i<N-1; i++){
-//           //System.out.println("total "+total);
-//            total *=10;
-//            finalValue += total;
-//        }
-//        System.out.print(finalValue);
-//    }
-//}
+ class Javas {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+        int[] A = new int[N];
+        int sum = 0;
+        int factorial = 1;
+        for (int i = 0; i < N; i++) {
+            A[i] = sc.nextInt();
+            sum +=A[i];
+            factorial *=(i+1);
+        }
+        int freq = factorial/N;
+        int res = freq * sum;
+         // System.out.println("res "+res);
+        int total = res;
+        int finalValue = res;
+        for(int i=0; i<N-1; i++){
+           System.out.println("total "+total);
+            total *=10;
+            finalValue += total;
+        }
+        System.out.print(finalValue);
+    }
+}

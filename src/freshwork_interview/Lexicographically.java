@@ -3,7 +3,7 @@ package freshwork_interview;
 import java.util.*;
 //In hacker land every character has a weight. 
 //the weight of an english uppercase alphabet a-z is given below.
-//asy -a = 1b = 2*a + ac = 3*b + bd = 4*c + cedium -y = 25*x + x2= 26*y + ythe weight of any string made up of these characters is the summation of weights of each character.
+//asy -a = 1,  b = 2*a + a , c = 3*b + b, d = 4*c + cedium -y = 25*x + x2= 26*y + ythe weight of any string made up of these characters is the summation of weights of each character.
 //given a total string weight, determine shortest stlexicographically smallest of them. 
 //for example, given weight = 25, and the weights of the first few characters of the alphabet are a = 1, b = 3, c = 12,with a total weight equal to the target are abbbbc, acc, and aaaaaaabbbbbb. 
 //the shortest of these is acc. while any permutation of these charactfunction descriptioncomplete the function smalleststring in the editor below.

@@ -1,7 +1,10 @@
 package freshwork_interview;
 
-import java.util.*;
+
 import java.util.Scanner;
+
+import java.util.*;
+
 
 public class Mountain {
     public static void main(String[] args) {
@@ -14,18 +17,23 @@ public class Mountain {
         }
          Arrays.sort(arr);
          int count = 0;
-         for(int i=0; i<n-1; i++){
-             for(int j=i+1; j<n; j++){
-                 if((arr[j]/arr[i])>=2 && arr[j] !=-1){
-                    count ++;
-                    arr[j] = -1;
-                    break;
+         int pt = n/2;
+         int val = n;
+         for(int i=0; i<n/2; i++){
+             //for(int j=i+1; j<n; j++){
+                 if((arr[pt]/arr[i])>=2 && arr[pt] !=-1){
+                    val--;
+                    arr[pt] = -1;
+                    pt++;
+                 }else{
+                     pt++;
                  }
                  
              }
-         }
+         
         // 2 5 7 6 9 8 4 2
-        System.out.println(n - count);
+        System.out.println(val);
     }
 }
+
 
